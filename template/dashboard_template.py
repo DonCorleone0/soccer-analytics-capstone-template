@@ -768,6 +768,6 @@ def update_goals_chart(competition, season, team):
 if __name__ == "__main__":
     print("\n" + "=" * 60)
     print("  Soccer Analytics Dashboard")
-    print("  Starting server at http://127.0.0.1:8050")
+    print("  Starting server at http://0.0.0.0:8050")
     print("=" * 60 + "\n")
-    app.run(debug=True, host="127.0.0.1", port=8050)
+    app.run(debug=True, host="0.0.0.0", port=8050)
